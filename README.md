@@ -1,5 +1,5 @@
 # Meus Projetos
- Repositório com projetos que faço enquanto estudo 
+ São alguns mini projetos que faço apenas par estudar e praticar algumas coisas.
 
 
  
