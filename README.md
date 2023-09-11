@@ -1,2 +1,4 @@
 # Meus Projetos
- Repositório com meus projetos pessoais 
+ Repositório com projetos que faço enquanto estudo 
+
+
