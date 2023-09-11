@@ -96,15 +96,18 @@ form{
 }
 
 form [type="submit"]{
-    height: 20px;
+    height: 45px;
     width: 50%;
     background-color: blueviolet;
     color: white;
     font-weight: bold;
-    padding: 20px 20px;
-    
 
 }
+form [type="submit"]:hover{
+    cursor: pointer;
+
+}
+
 
 input{
     margin-top: 20px;
