@@ -93,6 +93,17 @@ input{
     font-size: 15px;
 }
 
+input[type="text"], input[type="email"], input[type="password"], input[type="textarea"]{
+    margin-top: 20px;
+    display: flex;
+    
+
+}
+
+label{
+    padding-top: 15px;
+}
+
 select, textarea {
     border: none;
     border-radius: 10px;
@@ -106,6 +117,7 @@ select, textarea {
     flex-direction: column;
     margin-top: 80px;
 }
+
 
 .grupotec{
     color: white;
