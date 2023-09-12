@@ -21,10 +21,6 @@
             </a>
 
             <a href="#">
-                <li>About</li>
-            </a>
-
-            <a href="#">
                 <li>Settings</li>
             </a>
 
@@ -37,10 +33,10 @@
     </header>
 
     <main>
-        <p id="p">
+        <p class="p">
             <strong>Complete suas informações:</strong>
         </p>
-        <form action="">
+        <form action="" class="div">
             <fieldset class="grupo">
                 <label><strong>Nome:</strong></label>
                 <input type="text" name="nome" placeholder="Nome" required>
@@ -64,9 +60,12 @@
                 </label>
             </div>
 
+            <br>
+            <br>
+
             <div>
-                <label class="grupo"><strong>Senioridade:</strong></label>
-                <select id="senioridade">
+                <label class="senioridade"><strong>Senioridade:</strong></label>
+                <select>
                     <option value="" selected disabled>Selecione</option>
                     <option value="">Junior</option>
                     <option value="">Pleno</option>
@@ -77,6 +76,7 @@
             <fieldset class="grupo">
                 <div>
                     <label for=""><strong>Selecione as tecnologias que utiliza:</strong></label>
+                    <br>
                     <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
                     <label for="tecnologia1">HTML</label>
                     
@@ -88,6 +88,8 @@
                     
                     <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
                     <label for="tecnologia4">PHP</label>
+                    
+                    <br>
                     
                     <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
                     <label for="tecnologia5">C#</label>
