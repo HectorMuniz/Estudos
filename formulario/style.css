@@ -82,6 +82,7 @@ form [type="submit"]{
     font-weight: bolder;
     border: none;
     border-radius: 15px;
+    margin-top: 15px;
 }
 
 input{
@@ -107,6 +108,7 @@ label{
 select, textarea {
     border: none;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 
